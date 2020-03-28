@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--
+    기존에 있던 'xmlns:app' 및 'TextView'제거
+    -->
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1"
+        android:text="@string/strBtn1"
+        ></Button>
+    <!--
+    layout_(속성)은 버튼의 속성을 편집하는 메소드
+    @string/strBtn1는 'strings.xml'에서 정의하여 오류가 사라짐
+    -->
+
+</LinearLayout>
+<!--
+LinearLayout 클래스는 사용이 간편하고 표시형태가 직관적이며,
+박스형태의 디스플레이 화면에 UI요소들을 일렬로 배치할 수 있어서 안정감 있는 화면 구성이 가능
+수정사항
+1. LienarLayout -> LinearLayout 글자오류 수정
+-->
