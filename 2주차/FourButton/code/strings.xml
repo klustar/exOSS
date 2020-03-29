@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FourButton</string>
+    <string name="strBtn1">2017</string>
+    <string name="strBtn2">2018</string>
+    <string name="strBtn3">2019</string>
+    <string name="strBtn4">2020</string>
+</resources>
